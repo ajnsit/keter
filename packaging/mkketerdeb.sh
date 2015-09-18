@@ -10,7 +10,7 @@ set -e
 
 # ensure we have fpm, or try to install as necessary.
 if [[ -z "$FPM" ]]; then
-    sudo aptitude install ruby-dev gcc rubygems
+    sudo apt-get install ruby-dev gcc rubygems
     sudo gem install fpm
     FPM=$(which fpm)
 fi
