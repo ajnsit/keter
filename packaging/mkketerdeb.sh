@@ -1,7 +1,6 @@
 #!/bin/bash
 NAME=keter
 VER=1.3.6
-export PATH=$PATH:/var/lib/gems/1.8/bin
 FPM=$(which fpm)
 STACK=$(which stack)
 CABAL=$(which cabal)
